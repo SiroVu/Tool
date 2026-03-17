@@ -1,0 +1,7 @@
+dn: ou=People,dc=caothang,dc=edu,dc=vn
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Groups,dc=caothang,dc=edu,dc=vn
+objectClass: organizationalUnit
+ou: Groups

@@ -1,0 +1,27 @@
+dn: uid=user1,ou=People,dc=caothang,dc=edu,dc=vn
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Tran Van An
+sn: An
+uid: user1
+uidNumber: 10000
+gidNumber: 10000
+homeDirectory: /home/user1
+loginShell: /bin/bash
+mail: user1@caothang.edu.vn
+userPassword: 123456
+
+dn: uid=user2,ou=People,dc=caothang,dc=edu,dc=vn
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Le Van Binh
+sn: Binh
+uid: user2
+uidNumber: 10001
+gidNumber: 10001
+homeDirectory: /home/user2
+loginShell: /bin/bash
+mail: user2@caothang.edu.vn
+userPassword: 123456

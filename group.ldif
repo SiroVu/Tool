@@ -1,0 +1,6 @@
+dn: cn=developers,ou=Groups,dc=caothang,dc=edu,dc=vn
+objectClass: posixGroup
+cn: developers
+gidNumber: 10000
+memberUid: user1
+memberUid: user2
