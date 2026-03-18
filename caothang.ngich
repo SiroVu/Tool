@@ -1,0 +1,13 @@
+$TTL 1D
+@	IN	SOA	srv1.caothang.edu.vn.	admin.caothang.edu.vn.  (
+	0	;Serial
+	1D	;Refresh
+	1H	;Retry
+	1W	;Expire
+	3H	;TTL
+)
+
+@       IN      NS      srv1.caothang.edu.vn.
+
+2	IN	PTR	srv1.caothang.edu.vn.
+3	IN	PTR	srv2.caothang.edu.vn.

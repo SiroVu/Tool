@@ -1,0 +1,9 @@
+zone "caothang.edu.vn" {
+    type master;
+    file "/etc/bind/caothang.thuan";
+};
+
+zone "1.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/caothang.nghich";
+};

@@ -1,0 +1,19 @@
+$TTL    1D
+@       IN      SOA     srv1.caothang.edu.vn. admin.caothang.edu.vn. (
+        0	;Serial
+	1D	;Refresh
+	1H	;Retry
+	1W	;Expire
+	3H	;TTL
+)
+
+@       IN      NS      srv1.caothang.edu.vn.
+
+srv1        IN      A       192.168.1.2
+srv2        IN      A       192.168.1.3
+
+@           IN      MX      10 srv2.caothang.edu.vn.
+
+www	IN	CNAME	srv2.caothang.edu.vn.
+ftp	IN	CNAME	srv2.caothang.edu.vn.
+mail	IN	CNAME	srv2.caothang.edu.vn.
